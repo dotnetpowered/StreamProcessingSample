@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProcessingHost", "StreamProcessingHost\StreamProcessingHost.csproj", "{A36D01C9-7199-4BAD-A32A-9633F7641BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamLoader", "StreamLoader\StreamLoader.csproj", "{6C71469C-B3C5-4185-940A-3ADF066990BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamConsumer", "StreamConsumer\StreamConsumer.csproj", "{ACF4D7E2-8DA9-40F3-939B-E1A02B70723B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36D01C9-7199-4BAD-A32A-9633F7641BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36D01C9-7199-4BAD-A32A-9633F7641BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36D01C9-7199-4BAD-A32A-9633F7641BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36D01C9-7199-4BAD-A32A-9633F7641BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C71469C-B3C5-4185-940A-3ADF066990BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C71469C-B3C5-4185-940A-3ADF066990BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C71469C-B3C5-4185-940A-3ADF066990BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C71469C-B3C5-4185-940A-3ADF066990BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF4D7E2-8DA9-40F3-939B-E1A02B70723B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF4D7E2-8DA9-40F3-939B-E1A02B70723B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF4D7E2-8DA9-40F3-939B-E1A02B70723B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF4D7E2-8DA9-40F3-939B-E1A02B70723B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
